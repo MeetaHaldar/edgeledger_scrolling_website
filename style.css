@@ -136,7 +136,7 @@ p {
 
 /*  header:showcase  */
 #showcase {
-  background: #333 url("../img/showcase.jpg") center center/cover no-repeat;
+  background: #333 url("/showcase.jpg") center center/cover no-repeat;
   height: 100vh;
   color: white;
 }
@@ -184,7 +184,7 @@ p {
   flex: 1;
 }
 #who .who-img {
-  background: url(../img/people.jpg) center center/cover no-repeat;
+  background: url("/people.jpg") center center/cover no-repeat;
 }
 .who-text ul {
   list-style-type: none;
