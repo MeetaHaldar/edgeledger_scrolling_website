@@ -1,0 +1,76 @@
+#what .items{
+    display: block;
+    
+    
+    
+}
+#what .items .item{
+    border-bottom: 1px dotted #333;
+    display: flex;
+    text-align: left;
+    
+}
+
+#what .items .item .fas{
+    align-self: center;
+    margin-bottom: 0;
+    margin-right: 1.5rem;}
+
+#what .items .item:last-child{
+    border-bottom: none;
+}
+
+/* smartphones */
+@media (max-width:500px) {
+
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    #navbar .logo{
+        text-align: center;
+    }
+    #navbar ul{
+        padding: 1.2rem;
+    }
+    #showcase .showcase-content{
+        top: 100px;
+    }
+    #showcase .showcase-content h1{
+        font-size: 30px;
+    }
+    #who{
+        display: block;
+    }
+    #who .who-img{
+        display: none;
+    }
+    #client .client img{
+        width: 80%;
+    }
+    #client .client div:last-child{
+        display: none;
+    }
+#contact{
+    /* flex-direction: column; */
+    display: block;
+}
+#contact .map{
+   height: 400px;
+}
+html{
+    scroll-padding-top:80px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
